@@ -17,9 +17,9 @@ def main():
 
   #TODO:
   #Ask user for hours
-  usrHours = int(input("Could you provide me with some arbitrary number of hours?"))
+  usrHours = int(input("Could you provide me with some arbitrary number of hours? "))
   #Ask user for minutes
-  usrMinutes = int(input("Okay, and a number of minutes?"))
+  usrMinutes = int(input("Okay, and a number of minutes? "))
   #Calculate the time after the user-supplied time has passed.
   totalMinutes = currentMinute + usrMinutes
   totalHours = currentHour + usrHours + (totalMinutes // 60)
